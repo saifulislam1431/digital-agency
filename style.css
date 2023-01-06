@@ -94,7 +94,10 @@
 .my-service{
     display: flex;
     background-image: url(./asset/image/footer-bg.png), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0, 0.9));
+    height: 100vh;
     background-blend-mode: overlay;
+    align-items: center;
+    justify-content: center;
     color: azure;
     padding: 30px;
     gap: 50px;
@@ -165,4 +168,53 @@
 
 .tool1{
     margin-right: 15px;
+}
+
+/*  */
+
+.appointment{
+    display: flex;
+    background-color: darkorange;
+    width: 80%;
+   margin: 0 auto;
+   border-radius: 20px;
+   margin-top: -80px;
+   text-align: center;
+   justify-content: center ;
+}
+
+.appointment-details{
+    display: flex;
+    padding: 25px;
+    border-right: 2px solid rgb(230, 2, 2);
+    
+}
+
+.appointment-description{
+    display: flex;
+    padding: 25px;
+}
+
+.call-icon{
+    margin-right: 15px;
+    width: 90px;
+    height: 90px;
+}
+
+.btn-appointment{
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    border: 1px solid rgb(230, 2, 2);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-appointment:hover{
+    background-color: rgb(230, 2, 2);
+    color: white;
+
 }
