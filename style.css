@@ -243,13 +243,54 @@
 .blogs{
    
     display: flex;
+    text-align: center;
+    justify-content: center;
 
 }
 
 .blog{
     margin-top: 70px;
-    margin-right: 40px;
+    margin-right: 50px;
     box-shadow: 5px 10px  18px grey;
     width: 310px;
     border-radius: 10px;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0, 0.9));
+    height: 50vh;
+    background-blend-mode: overlay;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    padding: 30px;
+    gap: 50px;
+}
+
+.list-items{
+    list-style: none;
+    
+}
+
+.list-item{
+    margin: 20px 0;
+    padding: 0 50px;
+}
+
+.social{
+   
+    padding: 0 30px;
+}
+
+.foot-head{
+    padding: 0 50px;
+
+}
+
+.social-des{
+    margin: 20px 0;
 }
