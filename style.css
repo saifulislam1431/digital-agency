@@ -24,6 +24,8 @@
     font-weight: 500;
 }
 
+/* banner */
+
 .banner-container{
     background-image: url(./asset/image/background.jpg) , linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
     background-blend-mode: overlay;
@@ -85,4 +87,82 @@
     background-color: rgb(230, 2, 2);
     color: white;
 
+}
+
+/* Service */
+
+.my-service{
+    display: flex;
+    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0, 0.9));
+    background-blend-mode: overlay;
+    color: azure;
+    padding: 30px;
+    gap: 50px;
+}
+
+.service-title{
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.service-description{
+    padding: 10px 0;
+}
+
+.list{
+    padding-bottom: 10px;
+}
+
+.service-tools{
+    display: flex;
+}
+
+.author{
+    display: flex;
+    padding: 20px;
+}
+
+.more-details{
+    padding: 20px;
+    border-left: 2px solid rgb(230, 2, 2);
+}
+
+.info{
+    margin-right: 20px;
+}
+
+.author-img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.icons{
+    width: 100px;
+}
+
+.tech{
+    background-color: white;
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    color: black;
+    border-radius: 5px;
+}
+.market{
+    background-color: white;
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    color: black;
+    border-radius: 5px;
+}
+
+.tool1{
+    margin-right: 15px;
 }
